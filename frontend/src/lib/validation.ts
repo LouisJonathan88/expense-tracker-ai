@@ -1,0 +1,1 @@
+export const isValidId = (id: string): boolean => /^\d{1,18}$/.test(id);
